@@ -1,0 +1,43 @@
+locationid,breweryid,countryisocode,name,locality,locationtypedisplay,latitude,longitude,streetaddress,phone,postalcode,region,status,website
+aqLvLE,nHLlnK,US,Asheville,Fletcher,Micro Brewery,35.4303824,-82.5489214,100 Sierra Nevada Way,,28732,North Carolina,verified,
+sRxNq2,BznahA,US,Baldwinsville,Baldwinsville,Production Facility,43.1624453,-76.3096615,2885 Belgium Rd,(315) 635-4000,13027,New York,verified,http://anheuser-busch.com/
+h7fD42,IImUD9,US,Breck on Blake,Denver,Restaurant/Ale House,39.7562717,-104.9912319,2220 Blake Street,303-297-3644,80205,Colorado,verified,http://www.breckbrew.com/food/breckenridge-colorado-craft
+EOsuuz,IImUD9,US,Breckenridge Brewery & Farmhouse,Littleton,Production Facility,39.59331,-105.024306,6775 S. Santa Fe,303.623.2739,80120,Colorado,verified,http://www.breckbrew.com
+4nwOub,IImUD9,US,Breckenridge Brewery & Pub,Breckenridge,Brewpub,39.4761913,-106.0438304,600 South Main Street,970-453-1550,80424,Colorado,verified,http://www.breckbrewpub.com/
+I1q8kK,q6vJUK,US,Brevard,Brevard,Micro Brewery,35.2534666,-82.706852,342 Mountain Industrial Dr.,(828) 883-2337,28712,North Carolina,verified,http://www.oskarblues.com/
+UlgBzT,BznahA,US,Cartersville,Cartersville,Production Facility,34.2558728,-84.7831874,100 Busch Dr NE,(770) 386-2000,30121,Georgia,verified,http://anheuser-busch.com/
+s38mA2,nLsoQ9,US,Charleston Taproom & Beer Sanctuary,Charleston,Tasting Room,32.7784426,-79.927534,161 E Bay St.,843-853-4677,29401,South Carolina,verified,
+g2d9B7,nLsoQ9,US,Chicago,Chicago,Tasting Room,41.8579099,-87.691899,2607 West 17th St.,(773) 522-2503,60608,Illinois,verified,http://lagunitas.com/
+75P08u,BznahA,US,Columbus,Columbus,Production Facility,40.102482,-82.9933123,700 Schrock Rd,(614) 888-6644,43229,Ohio,verified,http://anheuser-busch.com/
+jP7oIL,BznahA,US,Fairfield,Fairfield,Production Facility,38.236362,-122.091866,3101 Busch Dr,(707) 429-2000,94534,California,verified,http://anheuser-busch.com/
+doVlXA,BznahA,US,Fort Collins,Fort Collins,Production Facility,40.6169416,-105.0018273,2351 Busch Dr,(970) 490-4500,80524,Colorado,verified,http://anheuser-busch.com/
+s0WsY3,IImUD9,US,Global Headquarters & Tasting Room,Denver,Production Facility,39.7236683,-105.0006015,471 Kalamath Street,303-623-2739,80204,Colorado,verified,http://www.breckbrew.com/
+S7YNd3,hGFVYy,US,Headquarters,Milwaukee,Office,43.0437831,-87.962092,3939 West Highland Blvd,,53208,Wisconsin,verified,
+LiqcRm,BznahA,US,Houston,Houston,Production Facility,29.773088,-95.269255,775 Gellhorn Dr,(713) 675-2311,77029,Texas,verified,http://anheuser-busch.com/
+y2ZQbD,BznahA,US,Jacksonville,Jacksonville,Production Facility,30.433924,-81.650619,111 Busch Dr,(904) 751-0700,32218,Florida,verified,http://anheuser-busch.com/
+G8EZgb,BznahA,US,Los Angeles,Van Nuys,Production Facility,34.2210112,-118.4768522,15800 Roscoe Blvd,(818) 989-5300,91406,California,verified,http://anheuser-busch.com/
+ZApGug,BznahA,US,Main Brewery,Saint Louis,Macro Brewery,38.5985037,-90.2093428,One Busch Place,(314) 577-2626,63118,Missouri,verified,http://www.anheuser-busch.com/
+9RsQkk,HaPdSL,IE,Main Brewery,Dublin City,Macro Brewery,53.34309,-6.290799,109 James's Street,,8,Dublin,verified,http://www.guinness.com/
+HFQ27P,p3YrOa,US,Main Brewery,West Philly,Micro Brewery,39.9477956,-75.2229305,701 S. 50th Street,(215)-726-2337,19143,Pennsylvania,verified,http://www.dockstreetbeer.com
+vd0Jcg,DMU2Kf,US,Main Brewery,Tacoma,Micro Brewery,47.2438476,-122.4365583,1938 Pacific Avenue,253-383-2739,98402,Washington,verified,http://harmon.harmonbrewingco.com/
+C0zPjd,nLsoQ9,US,Main Brewery,Petaluma,Micro Brewery,38.272435,-122.662346,1280 North McDowell Boulevard,707 769-4495,94954,California,verified,http://www.lagunitas.com/
+1eKpO5,yX6twV,US,Main Brewery,Ponderay,Micro Brewery,48.2980485,-116.5461322,1109 Fontaine drive,208-263-9222,83852,Idaho,verified,http://www.laughingdogbrewing.com/
+jnSdDd,q6vJUK,US,Main Brewery,Longmont,Micro Brewery,40.1389968,-105.1227417,1800 Pike Rd,1-303-776-1914,80501,Colorado,verified,http://www.oskarblues.com/
+IaQrxj,nHLlnK,US,Main Brewery,Chico,Micro Brewery,39.7246028,-121.8157154,1075 East 20th St,530-893-3520,95928,California,verified,http://www.sierranevada.com/
+MfINpl,TMc6H2,US,Main Brewery,Atlanta,Micro Brewery,33.808102,-84.38119,195 Ottley Drive,404-691-2537,30324,Georgia,verified,http://www.sweetwaterbrew.com/
+NbGMT2,DifSi4,US,Main Brewery,Westminster,Brewpub,42.5584168,-71.8707812,175 State Road East,978-874-9965,1473,Massachusetts,verified,http://www.wachusettbrew.com/
+Syl46S,p1tFbP,US,Main Brewery,Nashville,Micro Brewery,36.1503749,-86.779494,701 8th Avenue South,857-998-2571,37203,Tennessee,verified,http://www.jackalopebrew.com/
+kDDWiR,IImUD9,US,Main Brewery,Littleton,Micro Brewery,39.594287,-105.0246389,2990 Brewery Lane,303.803.1380,80120,Colorado,verified,http://www.breckbrew.com/farmhouse
+UFie4f,941OaA,US,Main Brewery,Upland,Micro Brewery,34.1091852,-117.6909341,2120 Porterfield Way,909-579-0032,91786,California,verified,http://www.dalebrosbrewery.com/
+dMbTUT,VEY3Xa,US,Main Brewery,Burlington,Brewpub,44.4596386,-73.2137346,716 Pine St,802-861-2999,5401,Vermont,verified,http://www.zerogravitybeer.com
+bY0joH,uM2jeT,BE,Main Brewery,Ruddervoorde,Micro Brewery,51.10493,3.2213,De Leiteweg 8020 Ruddervoorde Belgium,+32 478 74 54 64,8020,,verified,http://www.deleite.be/
+fKk5B1,4F7QA9,US,Main Brewpub,Portsmouth,Brewpub,43.0780069,-70.7575978,56 Market Street,1-603-431-1115,3801,New Hampshire,verified,http://www.portsmouthbrewery.com/
+aMIEke,BznahA,US,Merrimack,Merrimack,Production Facility,42.8252547,-71.4861091,221 Daniel Webster Hwy,(603) 595-1202,3054,New Hampshire,verified,http://anheuser-busch.com/
+awYZlE,AqEUBQ,US,New Holland Brewing,Holland,Micro Brewery,42.7900238,-86.1041945,66 East 8th Street,616-355-6422,49423,Michigan,verified,http://newhollandbrew.com/
+Cg12u5,BznahA,US,Newark,Newark,Production Facility,40.7067437,-74.1736086,200 US Highway 1,(973) 645-7700,7114,New Jersey,verified,http://anheuser-busch.com/
+TkDbDx,q6vJUK,US,Oskar Blues,Austin,Micro Brewery,30.3835422,-97.7142293,10420 Metric Blvd,(512) 243-7054,78758,Texas,verified,https://www.oskarblues.com/brewery/austin
+qncYRx,AqEUBQ,US,"Production Campus, Sales & Marketing",Holland,Office,42.817486,-86.113203,684 Commerce Court,,49424,Michigan,verified,http://newhollandbrew.com/
+vl6pMu,IImUD9,US,"The Ale House at Amato's,  Denver",Denver,Restaurant/Ale House,39.7586246,-105.0091788,2501 16th St,303-433-9734,80211,Colorado,verified,http://www.breckbrew.com/food/ale-house-amatos
+JRO1DT,IImUD9,US,"The Ale House, Grand Junction",Grand Junction,Restaurant/Ale House,39.0907673,-108.5527476,2531 North 12th Street,970-242-7253,81501,Colorado,verified,http://www.breckbrew.com/food/the-ale-house-grand-junction
+Db1S1w,AqEUBQ,US,The Knickerbocker,Grand Rapids,Restaurant/Ale House,42.9705881,-85.6797148,417 Bridge Street NW,1-616-345-5642,49504,Michigan,verified,http://newhollandbrew.com/theknickerbocker/
+ozjr3W,BznahA,US,Williamsburg,Williamsburg,Production Facility,37.2381215,-76.652522,7801 Pocahontas Trail,(757) 253-3600,23185,Virginia,verified,http://anheuser-busch.com/

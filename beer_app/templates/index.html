@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>In beer we trust!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+{%block nav%}
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">In Beer We Trust</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#data">DATA VIZ</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{%endblock%}
+
+{%block search%}
+
+<div class="jumbotron text-center">
+  <h1>In Beer We Trust </h1>
+  <p>We specialize in beers<img src="https://img.icons8.com/color/48/000000/beer-glass.png"> </p>
+  <form action="/beer_details" >
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Find your favorite beer" name="beer" >
+      <div class="input-group-btn">
+        <button type="submit" class="btn btn-danger">Search</button>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+{%endblock%}
+
+
+{%block about%}
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>About Us</h2><br>
+      <h4>Smart Recommendations</h4><br>
+      <p>Beer Analytics eliminates the need for guessing. Your beer's data will be utilized to give you concrete recommendations on beer abv, srm and ibu.</p>
+    </div>
+    <div class="col-sm-6">
+
+												 <div class="chart" id="chart">
+											<script>
+											var graphs = {{graphJSON | safe}};
+											Plotly.plot('chart',graphs,{});
+											</script>
+                    </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
+
+
+
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span></span>
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='img/g-map.jpg')}}" style="height: 150px;
+      width: 100%;">
+
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Breweries</h2><br>
+      <form action="/find_map">
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Select a postal code: </label>
+    <select multiple class="form-control" id="exampleFormControlSelect2" name="cp">
+      {% for p in postalcode %}
+      <option value="{{p}}">{{p}}</option>
+
+			{% endfor %}
+
+    </select>
+    <br>
+     <button type="submit" class="btn btn-primary">Find</button>
+  </div>
+
+</form>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Container (data Section) -->
+<div id="data" class="container-fluid text-center">
+  <h2>Data Visualization</h2>
+  <h4>We offer lots of data viz on beers</h4>
+
+  <br>
+  <div class="text-center">
+
+    <div class="chart " id="chart1">
+ <script>
+ var graphs = {{plot| safe}};
+ Plotly.plot('chart1',graphs,{});
+ </script>
+</div>
+
+
+
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Paris, FR</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+  </div>
+</div>
+
+
+
+{%block footer%}
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
+
+{%endblock%}
