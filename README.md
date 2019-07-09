@@ -1,6 +1,6 @@
 # Project_Beer
 
-Project beer <<In beer we trust>>  is a simple Flask web application in which different pieces of information on beer and its breweries are displayed. Data on beer is extracted from the BreweryDB API (https://www.brewerydb.com/developers/docs) and then cleaned and integrated into PostgreSQL. Python libraries such as Plotly and Folium are used for data visualization.
+Project beer "In beer we trust"  is a simple Flask web application in which different pieces of information on beer and its breweries are displayed. Data on beer is extracted from the BreweryDB API (https://www.brewerydb.com/developers/docs) and then cleaned and integrated into PostgreSQL. Python libraries such as Plotly and Folium are used for data visualization.
 
 
 
